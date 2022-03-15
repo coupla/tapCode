@@ -5,6 +5,7 @@ ENGLISH_TABLE = [['A','B','K','D','E'],
                 ['Q','R','S','T','U'],
                 ['V','W','X','Y','Z']]      # chose K because of acknowledgements via K (as in OK)
 WRONG_CHARACTER = '[?]'    # Symbol for the decoding of an unsupported character
+TAP_CHARACTER = '#'        # Symbol for conversion back into tap
 
 auto_x = True
 
@@ -54,7 +55,7 @@ def coordinates_to_tap(input_string):
 
     for i in input_string:
         for j in i:
-            output_string.append("."*(j+1))
+            output_string.append(TAP_CHARACTER*(j+1))
             output_string.append(" ")
     return "".join(output_string)
 
