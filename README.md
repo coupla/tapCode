@@ -14,6 +14,7 @@ A constant is available to enable/disable automatic line breaks when using the l
 The tap code is based on a Polybius square using a 5×5 grid of letters representing all the letters of the Latin alphabet, except for K, which is represented by C. 
 
 | A | B | C/K | D | E |
+|    :----:   |    :----:   |    :----:   |    :----:   |    :----:   |
 | F | G | H | I | J |
 | L | M | N | O | P |
 | Q | R | S | T | U |
